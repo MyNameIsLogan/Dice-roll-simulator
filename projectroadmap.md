@@ -9,3 +9,6 @@ Sprint 1 Checklist:
 
 Sprint 2 Checklist:
 TBD
+
+Sprint 3 Checklist:
+TBD

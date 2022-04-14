@@ -6,3 +6,6 @@ Sprint 1 Checklist:
 - [X] Create code repository file in own account as Owner DONE
 - [X] Edit readme file with description written in project idea sheet & add various commits DONE
 - [X] Explore and run other code similar to chosen project topic DONE
+
+Sprint 2 Checklist:
+TBD

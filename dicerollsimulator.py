@@ -14,3 +14,5 @@ if inp_dice_type== "D8":
 if inp_dice_type== "D10":
     print(random.randint(1, 10))
     
+if inp_dice_type== "D20":
+    print(random.randint(1, 20))

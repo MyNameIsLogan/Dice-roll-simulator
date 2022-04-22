@@ -7,3 +7,10 @@ if inp_dice_type== "D2":
 
 if inp_dice_type== "D6":
     print(random.randint(1, 6))  
+    
+if inp_dice_type== "D8":
+    print(random.randint(1, 8))    
+
+if inp_dice_type== "D10":
+    print(random.randint(1, 10))
+    

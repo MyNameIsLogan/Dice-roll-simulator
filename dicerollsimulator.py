@@ -20,3 +20,6 @@ if inp_dice_type== "D20":
 cont_inp= input("Would you like to roll again? (Y/N): ").lower()
 if cont_inp== "Y":
     print (inp_dice_type)    
+
+print(inp_dice_type)
+print(cont_inp)

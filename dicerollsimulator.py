@@ -1,25 +1,27 @@
+#Random import function needed in order to roll the dice properly
 import random
 
-inp_dice_type= input("What kind of dice would you like to roll? (Options: D2, D6, D8, D10, D20): ").lower()
+#Added the input for the user's name to add depth to dice roller.
 
-if inp_dice_type== "D2":
-    print(random.randint(1, 2))
+user_name= input("Welcome to the dice roll simulator! What is your name?: ")
 
-if inp_dice_type== "D6":
-    print(random.randint(1, 6))  
-    
-if inp_dice_type== "D8":
-    print(random.randint(1, 8))    
+while user_name.isnumeric():
+        print ("Invalid input! Please try again.")
+        user_name= input("\nWelcome to the dice roll simulator! What is your name?: ")
+print("Welcome "+ user_name.capitalize()+ "!")
 
-if inp_dice_type== "D10":
-    print(random.randint(1, 10))
-    
-if inp_dice_type== "D20":
-    print(random.randint(1, 20))
-    
-cont_inp= input("Would you like to roll again? (Y/N): ").lower()
-if cont_inp== "Y":
-    print (inp_dice_type)    
+#The program checks if the input is in letters or numbers. Numbers return an error.
 
-print(inp_dice_type)
-print(cont_inp)
+sides = int(input("\nHow many sides are on the die? "))
+die_or_dice = int(input("How many dice would you like? "))
+gen_roll= [random.randint(1, sides) for _ in range(die_or_dice)]
+print("\nYou have rolled: " + str(gen_roll))
+
+roll_again="yes"
+#if you want to roll again you can give the input accordingly
+while(roll_again=="yes" or roll_again=="y"):
+        gen_roll= [random.randint(1, sides) for _ in range(die_or_dice)]
+        print("\nYou have rolled: " + str(gen_roll))
+        roll_again=input("Do you want to roll again: y/yes or n/no:: ")        
+else:
+        print("Goodbye!")

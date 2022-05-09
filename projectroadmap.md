@@ -7,6 +7,7 @@ Sprint 1 Checklist:
 - [X] Edit readme file with description written in project idea sheet & add various commits DONE
 - [X] Explore and run other code similar to chosen project topic DONE
 
+
 Sprint 2 Checklist:
 
 Description- The goal of Sprint 2 is more focused on the general creation of the dice program. Here, we are focused on the type of dice first and getting this to run as well as continue/quit option. Sprint 3 will focus on adding up to three dice and increasing the overall complexity.
@@ -20,5 +21,13 @@ Description- The goal of Sprint 2 is more focused on the general creation of the
 - [X] Add the option to continue or quit DONE
 - [X] Test and run the program DONE
 
+
 Sprint 3 Checklist:
-TBD
+
+Description: Sprint 3 is intended to allow users customization settings such as added dice, sides of dice, name entry, and a looped program.
+
+- [X] Add the number of dice customization option DONE
+- [X] Add the sides of dice customization option (unlimited, not just D2, D6, etc.) DONE
+- [X] Allow users to enter their name DONE
+- [X] Loop the dice program until user quits DONE
+- [X] Finish testing and presentation DONE
